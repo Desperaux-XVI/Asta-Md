@@ -21,8 +21,8 @@ global.caption = process.env.CAPTION || global.caption || "αѕтα-м∂ 2024"
 
 
 global.devs = "2348039607375"
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348039607375";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348039607375";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348071512896";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348071512896";
 
 
 
@@ -50,8 +50,8 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348039607375";
 
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2348039607375";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348039607375";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "2348071512896";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "2348071512896";
 
 global.api_smd = "https://api-smd.onrender.com"
 global.scan = "https://suhail-md-vtsf.onrender.com";
@@ -64,7 +64,7 @@ module.exports = {
 
   menu: process.env.MENU || "v1", 
 
-  HANDLERS: process.env.PREFIX  || "/",
+  HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "3.0.0",
   caption : global.caption || "αѕтα-м∂ 2024" , 
